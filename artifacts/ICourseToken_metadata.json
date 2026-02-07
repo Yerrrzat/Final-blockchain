@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CourseFund.sol": "ICourseToken"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CourseFund.sol": {
+			"keccak256": "0x5e9ca516c4e74fda6d3ee4c9bac226708e5d975bcc1a3b6887ff41c46cf97b92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9aea0ab92a88ea5412dc46c545f44096a2f78b777a2c92cc020753164ae0ada7",
+				"dweb:/ipfs/QmZ3BcrACjd97qFRntaJ6sTQEVNWGUZEgLVKSB9F1i9KwP"
+			]
+		}
+	},
+	"version": 1
+}
